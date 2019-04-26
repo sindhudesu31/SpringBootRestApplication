@@ -1,4 +1,4 @@
-# This is simple REST application developed using Spring Boot framewrok. It's a maven project. 
+# This is simple REST application developed using Spring Boot framewrok which performs CRUD operations on a Postgres table.
 * I have used 1.5.15.RELEASE version of SpringBoot, Java 1.8, Maven 3.3.3 to develop this application.
 * The primary purpose of this application is to perform Create, Read, Update and Delete on a issue(CRUD Opertaions). 
 * I have used postgres as a database to store the data. 
