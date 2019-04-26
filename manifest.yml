@@ -1,0 +1,11 @@
+---
+applications:
+- name: TestProject
+  path: target/TestProject-1.0.0-SNAPSHOT.jar
+  memory: 1GB
+  instances: 1
+  timeout: 180
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+  services:
+    - AutoScaler
